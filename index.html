@@ -1,16 +1,78 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" >
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>1st html Repo</title>
-    <style>
-        body{
-            background-color: yellow;
-        }
-    </style>
+  <meta charset="UTF-8">
+  <title>Netflix Clone</title>
+  <link rel="stylesheet" href="style.css">
+
 </head>
-<body >
-  <h1 style="background-color: aquamarine;">Hey Guys's</h1>  
+<body>
+<!-- partial:index.partial.html -->
+<html lang="en">
+
+<head>
+ <meta charset="UTF-8">
+ <title>Netflix - Watch TV Shows Online, Watch Movies Online</title>
+</head>
+
+<body>
+
+ <header>
+  <nav>
+   <a class="logo" href="http://www.netflix.com"><img src="http://oi64.tinypic.com/2afl4xw.jpg" /></a>
+   <a class="signin" href="https://www.netflix.com/login">Sign In</a>
+  </nav>
+  <section class="pitch">
+   <h1 class="pitch-title">See what's next.</h1>
+   <p class="pitch-subtitle">WATCH ANYWHERE. CANCEL ANYTIME</p>
+   <button class="btn">JOIN FREE FOR A MONTH</button>
+  </section>
+ </header>
+ <div id="features">
+  <nav>
+   <div class="center columns size-80">
+    <a href="#" class="column is-selected" data-id="cancelanytime">
+     <img alt="Cancel anytime" src="http://i67.tinypic.com/2qvw9ro.jpg" />
+     <h2>
+					 No commitments
+					 <br />
+					 Cancel online at anytime
+					 </h2>
+    </a>
+    <a href="#" class="column" data-id="watchanywhere">
+     <img alt="Watch anywhere" src="http://i67.tinypic.com/wv78z7.jpg" />
+     <h2>
+					 Watch anywhere
+			</h2>
+    </a>
+    <a href="#" class="column " data-id="pickprice">
+     <img alt="Pick your price" src="http://i65.tinypic.com/2zf8xed.jpg" />
+     <h2>
+					 Pick your price
+			</h2>
+    </a>
+   </div>
+
+   <article>
+    <section class="is-selected" data-id="cancelanytime">
+     About feature 1
+    </section>
+    <section data-id="watchanywhere">
+     About feature 2
+    </section>
+    <section data-id="pickprice">
+     About feature 3
+    </section>
+
+   </article>
+
+  </nav>
+ </div>
+</body>
+
+</html>
+<!-- partial -->
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js'></script><script  src="script.js"></script>
+
 </body>
 </html>
